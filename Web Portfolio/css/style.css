@@ -1,0 +1,147 @@
+
+/*navigation*/
+
+.header_area.main-menu.navbar.navbar-brand{
+
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area.main-menu.nav-item.nav-link{
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.5rem;
+  color: black;
+}
+
+/* Banner */
+
+.site-main.site-banner{
+  background: url(../Images/banner\ image.jpg)no-repeat 0% 50%;
+}
+
+.site-main.site-banner.site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+.site-main.site-banner.site-title h3::after{
+  content: "";
+  background: grey;
+  height: 3px;
+  width: 20vw;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main.site-banner.site-title h1{
+  font-size: 6rem;
+}
+
+.site-main.site-banner.site-title h4{
+  font-size: 2rem;
+}
+
+.site-main.site-banner .banner-image>img{
+  padding: 7rem 0;
+  width: 90rem
+}
+
+.title-text{
+  font: normal bold 50px/72px Arial;
+}
+
+/*About Area*/
+.site-main.about-area{
+  padding: 8rem 5rem;
+}
+
+.site-main.about-area.about-title h2>span{
+ display: block;
+ font: normal bold 49px/60px Arial;
+ letter-spacing: 21px;
+}
+
+.site-main.about-area.about-title.paragraph>p{
+  padding: 4rem 0;
+}
+
+p.para{
+  color: blue;
+  font-size: large;
+  letter-spacing: 2px;
+}
+
+/*Brand area*/
+.site-main.brand-area{
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+/*Project Area*/
+.site-main.project-area{
+  padding: 4rem 0;
+}
+
+.site-main.project-area.grid.our-project > .title h4{
+  font: 200 bold Arial;
+}
+
+/*Mobile view*/
+@media only screen and (max-width:340px){
+  .header_area.main-menu.navbar,
+  .header_area.main-menu.navbar.navbar-brand,
+  .site-main.site-banner.site-title,
+  .site-main.about-area.about-title.p,h4
+  {
+    padding: 2%;
+    margin: 0%;
+  }
+
+  .site-main.site-banner.site-title h1{
+    font-size: 41px;
+  }
+
+  .site-main.project-area.row-grid.our-project.img{
+    width: 30%;
+  }
+
+  .site-main.form-group{
+    width: 13rem;
+
+  }
+}
+
+/*Tablet View*/
+@media only screen and (max-width:792px){
+.site-main.about-area.about-title h2>span{
+  font-size: 31px;
+  letter-spacing: 10px;
+}
+
+.site-main.about-area.about-title p{
+  padding: 0%;
+}
+
+}
+
+/*Desktop View*/
+@media only screen and (max-width:1910px){
+  .header_area.main-menu.navbar{
+    padding: 1rem;
+  }
+
+  .container{
+    max-width: 90%;
+  }
+
+  .site-main.brand-area,
+  .site-main.about-area{
+    padding: 3% 4%;
+  }
+}
+
+
+
+
